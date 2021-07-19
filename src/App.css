@@ -1,7 +1,100 @@
-.App {
-  text-align: center;
+/* my css */
+body{
+  background-color: lightgray;
+}
+.container{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  /* background-color: gray; */
+  width: 80%;
+  margin-left: 10%;
+} 
+
+.padd{
+  padding: 20px;
+}
+.article{
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.padd-article{
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.news-img{
+  width: 25%;
+  height: 200px;
+  /* background-color: grey; */
+  display: flex;
+}
+.news-img img{
+  width: 100%;
+}
+.news-detail{
+  height: 200px;
+  width: 70%;
+  /* background-color: yellow; */
+  font-family: 'Segoe UI';
+  padding-left: 20px;
+  padding-top: 10px;
+  box-shadow: 0 0 2px gray;
+}
+h2,p{
+  margin: 0px;
+}
+p:nth-child(2){
+  margin-bottom: 15px;
+  color: gray;
+  font-size: 17px;
+  font-weight: bold;
+}
+p:nth-child(3){
+  color: gray;
+  margin-bottom: 20px;
 }
 
+.btn{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Segoe UI';
+  border: none;
+  color: white;
+  background-color: dodgerblue;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+.btn:hover{
+  opacity: 1;
+}
+/* filter css */
+.filter{
+  width: 100%;
+  /* background-color: red; */
+}
+input{
+  height: 50px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  font-size: 18px;
+  text-indent:20px;
+  outline: none;
+  border:1px solid gray;
+}
+
+/* -------------------------------------------- */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
